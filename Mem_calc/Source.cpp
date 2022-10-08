@@ -1,16 +1,16 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 void main()
 {
 	setlocale(LC_ALL, "");
 	int adress_len;
-	cout << "Ââåäèòå ðàçìåð àäðåñà â áèòàõ: "; cin >> adress_len; cout << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð°Ð´Ñ€ÐµÑÐ° Ð² Ð±Ð¸Ñ‚Ð°Ñ…: "; cin >> adress_len; cout << endl;
 	double mem_size = pow(2, adress_len);
-	cout.width(10); cout << mem_size / pow(2, 0) << '\t' << " Áàéò" << endl;
-	cout.width(10); cout << mem_size / pow(2, 10) << '\t' << " ÊÁàéò / 10^3 / 2^10" << endl;
-	cout.width(10); cout << mem_size / pow(2, 20) << '\t' << " ÌÁàéò / 10^6 / 2^20" << endl;
-	cout.width(10); cout << mem_size / pow(2, 30) << '\t' << " ÃÁàéò / 10^9 / 2^30" << endl;
-	cout.width(10); cout << mem_size / pow(2, 40) << '\t' << " ÒÁàéò / 10^12 / 2^40" << endl;
-	cout.width(10); cout << mem_size / pow(2, 50) << '\t' << " ÏÁàéò / 10^15 / 2^50" << endl;
-	cout.width(10); cout << mem_size / pow(2, 60) << '\t' << " ÝÁàéò / 10^18 / 2^60";
+	cout.width(10); cout << mem_size / pow(2, 0) << '\t' << " Ð‘Ð°Ð¹Ñ‚" << endl;
+	cout.width(10); cout << mem_size / pow(2, 10) << '\t' << " ÐšÐ‘Ð°Ð¹Ñ‚ / 10^3 / 2^10" << endl;
+	cout.width(10); cout << mem_size / pow(2, 20) << '\t' << " ÐœÐ‘Ð°Ð¹Ñ‚ / 10^6 / 2^20" << endl;
+	cout.width(10); cout << mem_size / pow(2, 30) << '\t' << " Ð“Ð‘Ð°Ð¹Ñ‚ / 10^9 / 2^30" << endl;
+	cout.width(10); cout << mem_size / pow(2, 40) << '\t' << " Ð¢Ð‘Ð°Ð¹Ñ‚ / 10^12 / 2^40" << endl;
+	cout.width(10); cout << mem_size / pow(2, 50) << '\t' << " ÐŸÐ‘Ð°Ð¹Ñ‚ / 10^15 / 2^50" << endl;
+	cout.width(10); cout << mem_size / pow(2, 60) << '\t' << " Ð­Ð‘Ð°Ð¹Ñ‚ / 10^18 / 2^60";
 }
